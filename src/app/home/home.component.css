@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #74ebd5, #acb6e5);
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #005f73;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-item {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    color: #ffd166;
+  }
+  
+  .welcome {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  .welcome h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .welcome p {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
